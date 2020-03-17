@@ -1,5 +1,5 @@
 # Graph-XLL
-> A Graph Library for Extra Large Graph Analytics on a Single Machine
+> A Graph Library for Extra Large Graph Analytics on a Single Machine with WebGraph BVGraph format
 ***
 
 ## Input
@@ -83,7 +83,7 @@ javac -cp "lib/*" -d bin src/*
 ## Running
 
 ```
-java -cp "lib/*:bin" PageRankWG
+java -cp "lib/*:bin" BV2Ascii
 ```
 For larger graphs, allocate more memory to avoid OutOfMemoryError by appending -Xmx4g or -Xmx8g or -Xmx16g etc. to the above line.
 
